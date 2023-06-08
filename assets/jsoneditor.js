@@ -15934,7 +15934,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 
 	  // grab ace from options if provided
-	  var _ace = options.ace ? options.ace : ace;
+	  var _ace = options.ace ? options.ace : window.ace;
 
 	  // determine mode
 	  this.mode = (options.mode == 'code') ? 'code' : 'text';
